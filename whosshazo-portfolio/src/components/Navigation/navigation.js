@@ -1,4 +1,5 @@
 import React from "react";
+import "./navigation.css";
 import {
   Navbar,
   NavbarBrand,
@@ -13,7 +14,7 @@ import {
 
 function Navigation(props) {
   return (
-    <div>
+    <div className="nav">
       <Fade>
         <Navbar color="light" expand="md" light>
           <NavbarBrand href="/">WHOS.SHAZO</NavbarBrand>

@@ -2,7 +2,8 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 import Selfie from "../../assets/selfie/selfie.jpeg";
 
-function About() {
+function About(props) {
+  const { currentCategory } = props;
   return (
     <container>
       <Row>
