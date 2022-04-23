@@ -40,10 +40,11 @@ function App() {
         {!projectsSelected ? (
           <>
             <About currentCategory={currentCategory}></About>
-            <Projects></Projects>
+
+            <Contact></Contact>
           </>
         ) : (
-          <Contact></Contact>
+          <Projects></Projects>
         )}
       </main>
     </div>

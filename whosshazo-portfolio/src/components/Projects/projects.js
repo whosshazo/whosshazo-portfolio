@@ -1,22 +1,25 @@
 import React from "react";
+import Sk8spotter from "../../assets/selfie/sk8spotter.png";
+import Notes from "../../assets/selfie/note-taker.png";
+import Cocktails from "../../assets/selfie/cocky-cocktails.png";
 import {
   Card,
   CardBody,
   CardTitle,
-  CardSubtitle,
   CardLink,
   CardText,
 } from "reactstrap";
-import Sk8spotter from "../../assets/selfie/sk8spotter.png";
-import Notes from "../../assets/selfie/note-taker.png";
-import Cocktails from "../../assets/selfie/cocky-cocktails.png";
+
 
 function Projects(props) {
+  const { currentCategory } = props;
   return (
     <div className="d-flex p-2 ">
       <Card className="p-2">
         <CardBody>
-          <CardTitle tag="h5"><u>Sk8.Spotter</u></CardTitle>
+          <CardTitle tag="h5">
+            <u>Sk8.Spotter</u>
+          </CardTitle>
         </CardBody>
         <img alt="ska8spotter home page" src={Sk8spotter} width="100%" />
         <CardBody>
@@ -33,7 +36,9 @@ function Projects(props) {
       </Card>
       <Card className="p-2">
         <CardBody>
-          <CardTitle tag="h5"><u>Note Taker</u></CardTitle>
+          <CardTitle tag="h5">
+            <u>Note Taker</u>
+          </CardTitle>
         </CardBody>
         <img alt="ska8spotter home page" src={Notes} width="100%" />
         <CardBody>
@@ -51,7 +56,9 @@ function Projects(props) {
       </Card>
       <Card className="p-2">
         <CardBody>
-          <CardTitle tag="h5"><u>Cocky Cocktails</u></CardTitle>
+          <CardTitle tag="h5">
+            <u>Cocky Cocktails</u>
+          </CardTitle>
         </CardBody>
         <img alt="ska8spotter home page" src={Cocktails} width="100%" />
         <CardBody>

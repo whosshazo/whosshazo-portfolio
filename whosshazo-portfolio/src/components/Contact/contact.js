@@ -8,7 +8,7 @@ function Contact() {
     email: "",
     message: "",
   });
-  // const { name, email, message } = formState;
+  const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState("");
 
   function handleChange(e) {
@@ -39,35 +39,41 @@ function Contact() {
     <Form>
       <Row>
         <Col md={6}>
-          <FormGroup>
-            <Label for="formEmail">Say Hello?</Label>
+          <FormGroup id="contact-form" onSubmit={handleSubmit}>
+            <Label for="formName">Say Hello?</Label>
           </FormGroup>
           <FormGroup>
-            <Label for="formEmail">Email</Label>
+            <Label for="formName">Name</Label>
             <Input
-              id="formEmail"
+              type="text"
+              onBlur={handleChange}
+              defaultValue={name}
               name="email"
-              placeholder="Email"
-              type="email"
             />
           </FormGroup>
         </Col>
         <Col md={6}>
           <FormGroup>
-            <Label for="formPassword">Password</Label>
+            <Label for="formEmail">Email</Label>
             <Input
-              id="formPassword"
-              name="password"
-              placeholder="Password"
-              type="password"
+              type="text"
+              defaultValue={email}
+              onBlur={handleChange}
+              name="email"
             />
           </FormGroup>
         </Col>
       </Row>
       <FormGroup>
         <Label for="formText">Whats on your mind?</Label>
-        <Input id="formText" name="text" type="textarea" />
+        <Input defaultValue={message} name="message" onBLur={handleChange} />
       </FormGroup>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+      <button type="submit">Submit</button>
     </Form>
   );
 }
