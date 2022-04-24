@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import { Form, FormGroup, Label, Input, Row, Col } from "reactstrap";
+import "./contact.css";
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -37,7 +38,7 @@ function Contact() {
 
   return (
     <Form>
-      <Row>
+      <Row className="setup">
         <Col md={6}>
           <FormGroup id="contact-form" onSubmit={handleSubmit}>
             <Label for="formName">Say Hello?</Label>

@@ -1,0 +1,9 @@
+.setup{
+    display: flex;
+    align-items: flex-end;
+}
+
+form {
+    padding: 5rem;
+}
+
