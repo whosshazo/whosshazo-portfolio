@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.selfie {
+    height: min-content;
+}
+
 .dad {
     border: 1px solid black;
     height: min-content;

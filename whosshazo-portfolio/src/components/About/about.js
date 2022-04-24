@@ -12,7 +12,7 @@ function About() {
       <div className="media">
         <img
           src={Selfie}
-          class="mr-3"
+          class="mr-3 selfie"
           alt="me in my car"
           style={{ width: "45%" }}
         />
