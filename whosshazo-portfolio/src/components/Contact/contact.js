@@ -41,7 +41,9 @@ function Contact() {
       <Row className="setup">
         <Col md={6}>
           <FormGroup id="contact-form" onSubmit={handleSubmit}>
-            <Label for="formName">Say Hello?</Label>
+            <Label for="formName">
+              <u>Say Hello?</u>
+            </Label>
           </FormGroup>
           <FormGroup>
             <Label for="formName">Name</Label>
