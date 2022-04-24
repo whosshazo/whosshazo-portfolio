@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whossahzo-portfolio/static/css/main.d95bedc3.css",
+    "main.js": "/whossahzo-portfolio/static/js/main.20e639e7.js",
+    "static/js/787.a9861ff0.chunk.js": "/whossahzo-portfolio/static/js/787.a9861ff0.chunk.js",
+    "static/media/cocky-cocktails.png": "/whossahzo-portfolio/static/media/cocky-cocktails.a0ffb9a0620ef9c28508.png",
+    "static/media/tunnel.JPG": "/whossahzo-portfolio/static/media/tunnel.d69f5b1879f625b6b062.JPG",
+    "static/media/sk8spotter.png": "/whossahzo-portfolio/static/media/sk8spotter.0ea0cee59fdb6b1c95b3.png",
+    "static/media/slob-plant.jpg": "/whossahzo-portfolio/static/media/slob-plant.b64b1b0c62f6ccca53fe.jpg",
+    "static/media/selfie.jpeg": "/whossahzo-portfolio/static/media/selfie.7af0e403dea9fc397d2b.jpeg",
+    "static/media/daddy-daughter.JPG": "/whossahzo-portfolio/static/media/daddy-daughter.368c7e356d78c08aefef.JPG",
+    "static/media/note-taker.png": "/whossahzo-portfolio/static/media/note-taker.2a8fc47d1de7c9a2eb33.png",
+    "index.html": "/whossahzo-portfolio/index.html",
+    "main.d95bedc3.css.map": "/whossahzo-portfolio/static/css/main.d95bedc3.css.map",
+    "main.20e639e7.js.map": "/whossahzo-portfolio/static/js/main.20e639e7.js.map",
+    "787.a9861ff0.chunk.js.map": "/whossahzo-portfolio/static/js/787.a9861ff0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d95bedc3.css",
+    "static/js/main.20e639e7.js"
+  ]
+}
