@@ -41,7 +41,7 @@ function App() {
           <>
             <About currentCategory={currentCategory}></About>
 
-            <Contact></Contact>
+            {/* <Contact></Contact> */}
           </>
         ) : (
           <Projects></Projects>

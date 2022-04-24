@@ -47,9 +47,9 @@ function Navigation(props) {
                   Projects
                 </NavLink>
               </NavItem>
-              
+
               <NavItem>
-                <NavLink href="/components/">Contact</NavLink>
+                <NavLink href="./Contact/contact.js">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

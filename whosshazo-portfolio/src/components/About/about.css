@@ -1,0 +1,18 @@
+.media {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.media-title {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.media-body {
+    padding-left: 2rem;
+}
+
+.photo-list {
+    display: flex; 
+    justify-content: space-evenly;
+}
