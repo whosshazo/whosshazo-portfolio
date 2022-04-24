@@ -9,10 +9,26 @@
 }
 
 .media-body {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .photo-list {
     display: flex; 
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.dad {
+    border: 1px solid black;
+    height: min-content;
+}
+
+.tunnel {
+    border: 1px solid black;
+}
+
+.slob {
+    border: 1px solid black;
+    height: min-content;
+
 }

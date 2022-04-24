@@ -29,19 +29,19 @@ function About() {
           <div className="photo-list">
             <img
               src={Dad}
-              class="mr-3"
+              class="mr-3 dad"
               alt="me in my car"
               style={{ width: "30%" }}
             />
             <img
               src={Tunnel}
-              class="mr-3"
+              class="mr-3 tunnel"
               alt="me in my car"
               style={{ width: "30%" }}
             />
             <img
               src={Slob}
-              class="mr-3"
+              class="mr-3 slob"
               alt="me in my car"
               style={{ width: "30%" }}
             />
